@@ -1,0 +1,74 @@
+{
+    "sites": [
+        {
+            "id": 1,
+            "name": "Abc",
+            "location": "Houston",
+            "stage": "1",
+            "description": "Site 1 Description"
+        },
+        {
+            "id": 2,
+            "name": "Cake",
+            "location": "Houston",
+            "stage": "2",
+            "description": "Site 2 Description"
+        },
+        {
+            "id": 3,
+            "name": "Google",
+            "location": "Houston",
+            "stage": "2",
+            "description": "Site 3 Description"
+        },
+        {
+            "id": 4,
+            "name": "IBM",
+            "location": "Dallas",
+            "stage": "4",
+            "description": "Site 4 Description"
+        },
+        {
+            "id": 5,
+            "name": "Pros",
+            "location": "Boston",
+            "stage": "3",
+            "description": "Site 5 Description"
+        },
+        {
+            "id": 6,
+            "name": "Yahoo",
+            "location": "Houston",
+            "stage": "2",
+            "description": "Site 6 Description"
+        },
+        {
+            "id": 7,
+            "name": "R1Soft",
+            "location": "Boston",
+            "stage": "2",
+            "description": "Site 7 Description"
+        },
+        {
+            "id": 8,
+            "name": "Apple",
+            "location": "Washington DC",
+            "stage": "5",
+            "description": "Site 8 Description"
+        },
+        {
+            "id": 9,
+            "name": "Microsoft",
+            "location": "Seattle",
+            "stage": "4",
+            "description": "Site 9 Description"
+        },
+        {
+            "id": 10,
+            "name": "Amazon",
+            "location": "Seattle",
+            "stage": "1",
+            "description": "Site 10 Description"
+        }
+    ]
+}
