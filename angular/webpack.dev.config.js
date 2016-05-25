@@ -15,17 +15,14 @@ module.exports = {
   plugins: [
     new webpack.NoErrorsPlugin()
   ],
- resolve: {
-   extensions: ['', '.webpack.js', '.web.js', '.ts', '.js'],
-   fallback: __dirname + '/../../node_modules',
-   root: [
-     __dirname + '/../../node_modules',
-     'node_modules'
-   ],
-   alias: {		
-     '@angular/core$': __dirname + '/../../node_modules/@angular/core',
-     'ng2-redux$':__dirname + '/../../src'
-     }
+  resolve: {
+    extensions: ['', '.webpack.js', '.web.js', '.ts', '.js'],
+    root: [
+      'node_modules'
+    ],
+    alias: {
+      site: 'app'
+    }
   },
 
   module: {

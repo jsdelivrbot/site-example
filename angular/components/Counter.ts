@@ -15,8 +15,8 @@ import {Component, Input} from '@angular/core';
 export class Counter {
   @Input() counter: number;
   @Input() increment: () => void;
-  @Input() decrement: () => void; 
+  @Input() decrement: () => void;
   @Input() incrementIfOdd: () => void;
   @Input() incrementAsync: () => void;
-  
+
 }

@@ -22,7 +22,7 @@ import {RootState} from '../store/configureStore';
 })
 
 export class App {
-    
+
     counter$: any;
     unsubscribe: () => void;
 
@@ -36,13 +36,13 @@ export class App {
         private applicationRef: ApplicationRef) {}
 
     ngOnInit() {
-        let {increment, decrement } = CounterActions;
+        let { increment, decrement } = CounterActions;
         this.counter$ = this.ngRedux
             .select(state => state.counter)
         this.ngRedux.mapDispatchToTarget({ increment, decrement })(this);
 
         this.unsubscribe = this.ngRedux.subscribe(() => {
-          this.applicationRef.tick();
+            this.applicationRef.tick();
         });
     }
 
